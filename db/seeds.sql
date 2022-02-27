@@ -3,7 +3,7 @@ INSERT INTO department (name)
   VALUES
   ('Human Resources'),
   ('Accounting'),
-  ('Information Technology'),
+  ('Information Services'),
   ('Legal'),
   ('Marketing');
 
@@ -18,7 +18,6 @@ INSERT INTO role (title, salary, department_id)
   ('Marketing Manager', 65000, 5);
 
 -- seed employee table
--- NOTE: cannot use a manager_id value that is a higher value than the current employee.id you're using it on because that manager won't exist yet
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
   VALUES
   ('Martin', 'Platte', 2, NULL),
@@ -32,5 +31,5 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
   ('George', 'Martin', 2, NULL),
   ('Lexi', 'Stone', 1, 4),
   ('Fallon', 'Ruff', 2, 2),
-  ('Vince', 'Cannon', 4, 1),
-  ('Kyle', 'Tenztil', 5, 3);
+  ('Vince', 'Cannon', 4, 3),
+  ('Kyle', 'Tenztil', 5, 1);
