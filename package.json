@@ -1,0 +1,25 @@
+{
+  "name": "employee-hackers",
+  "version": "1.0.0",
+  "description": "Module 12 SQL Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwfoote/employee-hackers.git"
+  },
+  "author": "pwfoote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwfoote/employee-hackers/issues"
+  },
+  "homepage": "https://github.com/pwfoote/employee-hackers#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
