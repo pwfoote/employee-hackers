@@ -15,7 +15,7 @@ CREATE TABLE role (
   title VARCHAR(30) NOT NULL,
   salary DECIMAL(6) NOT NULL,
   department_id INTEGER,
-  -- if department table's id value referenced is deleted set value to NULL
+  
   CONSTRAINT fk_dept FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE SET NULL
 );
 
